@@ -45,7 +45,10 @@ directory_path = r"C:\Users\YourName\Google Photos Downloads"
 4. Open a command prompt or terminal.
 5. Navigate to the folder where the script is located.
 6. Run the script with the following command:
-   - python date_modifier_script.py
+
+```python
+python date_modifier_script.py
+```
 
 The script will process all .json files in the specified directory, extract the "photo taken time" from the JSON, and update the corresponding photo/video file with the correct timestamp.
 
