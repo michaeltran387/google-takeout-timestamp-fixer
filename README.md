@@ -40,22 +40,25 @@ Example:
 
 ```python
 directory_path = r"C:\Users\YourName\Google Photos Downloads"
+```
 
 4. Open a command prompt or terminal.
 5. Navigate to the folder where the script is located.
 6. Run the script with the following command:
-    - python date_modifier_script.py
+   - python date_modifier_script.py
 
 The script will process all .json files in the specified directory, extract the "photo taken time" from the JSON, and update the corresponding photo/video file with the correct timestamp.
 
 ### Additional Information:
+
 - The script will look for .json files and their associated photo/video files (same name, .jpg, .mp4, etc.).
 - The photoTakenTime in the JSON file is used to update the file's last modified timestamp.
 
 ### Troubleshooting:
+
 - Ensure your Google Takeout files are organized with .json files and their corresponding media files in the same folder.
 - If you encounter any issues with file paths, make sure the directory_path variable is set correctly.
 
 ### License:
+
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
